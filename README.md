@@ -1,5 +1,9 @@
 # makefeedback
 
+## Dependencies
+
+* [PostgreSQL 11](https://postgresapp.com/)
+
 ## Step by Step
 
 1. Implement [Standard Go Project Layout](https://github.com/golang-standards/project-layout).
