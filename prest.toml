@@ -1,0 +1,26 @@
+migrations = "./schema/migrations"
+debug = true
+
+[http]
+port = 6000
+
+[jwt]
+default = false
+# key = "secret"
+# algo = "HS256"
+
+[pg]
+host = "127.0.0.1"
+user = "postgres"
+pass = ""
+port = 5432
+database = "makefeedback"
+
+## or used cloud factor
+## URL = "postgresql://user:pass@localhost/makefeedback/?sslmode=disable"
+
+[ssl]
+mode = "disable"
+sslcert = "./PATH"
+sslkey = "./PATH"
+sslrootcert = "./PATH"
