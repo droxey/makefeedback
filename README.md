@@ -10,4 +10,4 @@
 
 1. Implement [Standard Go Project Layout](https://github.com/golang-standards/project-layout).
 1. Add simple PostgreSQL schema: `schema/schema.sql`.
-
+1. Add CodeClimate analysis.
