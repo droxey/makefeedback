@@ -19,7 +19,13 @@
 
 ### Imagining the UI
 
-[![UX Mockup](ux-mockup.svg)](ux-mockup.svg)
+#### Slack Integration
+
+[![UX Mockup - Slack](ux-mockup.svg)](ux-mockup.svg)
+
+#### Shields.io Integration
+
+[![UX Mockup - Shield](ux-mockup-shield.svg)](ux-mockup-shield.svg)
 
 ### Diagramming the Architecture
 
@@ -45,7 +51,7 @@
 
 ### Integrating the API with Slack
 
-### Integrating the API with shields.io
+### Integrating the API with Shields.io
 
 ### Stretch Challenges
 
