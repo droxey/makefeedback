@@ -55,5 +55,6 @@
 
 ### Stretch Challenges
 
+1. What other third-party services could you integrate your API with?
 1. Can you make this project work for other types of feedback?
 1. Can you create a front-end Single Page Application that uses your API?
