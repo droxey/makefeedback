@@ -15,8 +15,6 @@ CREATE TABLE "feedback" (
     "rating" SMALLINT NOT NULL DEFAULT 0 CHECK (("rating" >= 0) AND ("rating" <= 5)),
     "date" DATE NOT NULL DEFAULT CURRENT_DATE,
     "time" TIME NOT NULL DEFAULT CURRENT_TIME,
-    "class" VARCHAR(8) NOT NULL,
-    "term" SMALLINT NOT NULL DEFAULT 3,
-    "year" SMALLINT NOT NULL DEFAULT 2019,
-    UNIQUE ("term", "year", "class", "date")
+    "item" TEXT NOT NULL,
+    UNIQUE ("date", "item")
 );
