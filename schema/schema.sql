@@ -1,4 +1,5 @@
 -- Tested on PostgreSQL 11.
+-- Would be good to make this a mini-tutorial or use Braus's content, etc. and link out.
 
 -- Drop, create, and use a DB called "makefeedback."
 DROP DATABASE IF EXISTS "makefeedback";
